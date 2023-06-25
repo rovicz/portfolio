@@ -177,3 +177,25 @@ img {
   color: #000;
   border-radius: 3px;
 }
+
+@media (max-width: 739px) {
+  br {
+    display: none;
+  }
+
+  .apresentation-content {
+    text-align: center;
+  }
+
+  .apresentation-content h2 {
+    margin-bottom: 10px;
+  }
+
+  .apresentation-content h2::after {
+    margin: 0px auto;
+  }
+
+  .apresentation-content p::before {
+    margin: 10px auto;
+  }
+}
