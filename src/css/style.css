@@ -189,16 +189,20 @@ img {
     display: none;
   }
 
+  .apresentation {
+    margin-top: 120px;
+  }
+
   .apresentation-content {
     text-align: center;
   }
 
   .apresentation-btn {
-    margin: 20px auto 0 auto;
+    margin: 20px auto 30px auto;
   }
 
   .apresentation-content h2 {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
 
   .apresentation-content h2::after {
