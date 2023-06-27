@@ -67,6 +67,7 @@ img {
   font-size: 1.125em;
   font-weight: bold;
   text-transform: uppercase;
+  border-radius: 3px;
   transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
