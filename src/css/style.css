@@ -306,3 +306,109 @@ img {
     text-align: center;
   }
 }
+
+/* Projects */
+
+.projects {
+  margin: 60px 0;
+}
+
+.project-title {
+  color: white;
+  font-size: 2em;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.project-title::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: #fff;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.project-img img {
+  border-radius: 15px;
+}
+
+.project-content {
+  flex: 1;
+  background: #252526;
+  margin-left: 20px;
+  border-radius: 15px;
+  padding: 25px;
+}
+
+.project-content h2 {
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.project-content h2::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 4px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.project-content h3 {
+  font-size: 1.25em;
+  color: #fff;
+  font-style: italic;
+  margin: 5px 0;
+}
+
+.project-content p {
+  max-width: 500px;
+  color: #fff;
+  font-size: 1.125em;
+  line-height: 1.4em;
+  margin: 10px 0 20px 0;
+}
+
+.project-btn {
+  box-shadow: inset 0 0 0 0 #fff;
+  width: 120px;
+  padding: 5px 40px;
+  background: none;
+  border: 3px solid #fff;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.project-btn:hover {
+  box-shadow: inset 120px 0 0 0 #fff;
+  color: #000;
+  border-radius: 5px;
+}
+
+@media (max-width: 739px) {
+  .project-img {
+    margin: 0 auto;
+  }
+
+  .project-item {
+    background: #252526;
+    padding: 30px;
+    border-radius: 15px;
+  }
+
+  .project-content {
+    text-align: center;
+    background: none;
+    margin: 0;
+  }
+
+  .project-content h2::after {
+    margin: 0 auto;
+  }
+}
