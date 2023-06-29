@@ -4,6 +4,16 @@ html {
   scroll-behavior: smooth;
 }
 
+::selection {
+  color: #000;
+  background: #fff;
+}
+
+::-moz-selection {
+  color: #000;
+  background: #fff;
+}
+
 body,
 h1,
 h2,
