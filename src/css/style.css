@@ -509,6 +509,14 @@ img {
   transition: 0.5s;
 }
 
+.contact-img p {
+  display: none;
+}
+
+#copy-button {
+  cursor: pointer;
+}
+
 .contact-img img:hover {
   transform: translateY(-5px);
 }
