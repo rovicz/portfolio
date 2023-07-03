@@ -554,6 +554,10 @@ img {
 }
 
 @media (max-width: 739px) {
+  .footer {
+    padding: 20px 0;
+  }
+
   .footer-img,
   .footer p {
     margin: 10px 0px;
@@ -565,7 +569,7 @@ img {
 
   .footer p {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   .footer a {
