@@ -11,6 +11,7 @@ export default function initScrollTop() {
       document.documentElement.scrollTop > 20
     ) {
       button.style.display = "block";
+      button.style.animation = "textDown 0.3s";
     } else {
       button.style.display = "none";
     }
