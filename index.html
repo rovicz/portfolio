@@ -1,171 +1,243 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/style.css" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./src/css/style.css">
+    <link
+      rel="shortcut icon"
+      href="./src/img/favicon.ico"
+      type="image/x-icon"
+    />
 
-  <link rel="shortcut icon" href="./src/img/favicon.ico" type="image/x-icon">
+    <title>Victor Fernandes</title>
+  </head>
 
-  <title>Victor Fernandes</title>
-</head>
+  <body>
+    <!-- Button Top -->
 
-<body>
+    <a id="topButton"
+      ><img src="./src/img/double-arrow-top-icon.svg" alt="Button Top"
+    /></a>
 
-  <!-- Button Top -->
+    <!-- Header -->
 
-  <a id="topButton"><img src="./src/img/double-arrow-top-icon.svg" alt="Button Top"></a>
+    <header class="header">
+      <div class="container">
+        <a href="#">Victor</a>
 
-  <!-- Header -->
-
-  <header class="header">
-    <div class="container">
-      <a href="#">Victor</a>
-
-      <nav class="header-nav">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-      <div class="dropdown">
-        <button class="dropbtn">
-          <img class="dropdown-img" src="src/img/menu-svgrepo-com.svg" alt="Dropdown Menu" />
-        </button>
-        <div id="myDropdown" class="dropdown-content">
-          <a href="#">Home</a>
-          <a href="#about">About</a>
-          <a href="#contact">Contact</a>
+        <nav class="header-nav">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="dropdown">
+          <button class="dropbtn">
+            <img
+              class="dropdown-img"
+              src="src/img/menu-svgrepo-com.svg"
+              alt="Dropdown Menu"
+            />
+          </button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </div>
         </div>
       </div>
-    </div>
-  </header>
+    </header>
 
-  <!-- Apresentation -->
+    <!-- Apresentation -->
 
-  <section class="apresentation">
-    <div class="apresentation-item container js-scroll">
+    <section class="apresentation">
+      <div class="apresentation-item container js-scroll">
+        <div class="apresentation-content">
+          <h2>Hello!</h2>
+          <h3>
+            My name is Victor<br />
+            and im a Front-End Developer.
+          </h3>
+          <p>
+            I invite you to know more<br />
+            about me and my work.
+          </p>
 
-      <div class="apresentation-content">
-        <h2>Hello!</h2>
-        <h3>My name is Victor<br> and im a Front-End Developer.</h3>
-        <p>I invite you to know more<br> about me and my work.</p>
-
-        <a class="apresentation-btn" href="#about">About Me</a>
+          <a class="apresentation-btn" href="#about">About Me</a>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- About Me -->
+    <!-- About Me -->
 
-  <section class="about js-scroll" id="about">
-    <h1 class="about-title">About Me</h1>
+    <section class="about js-scroll" id="about">
+      <h1 class="about-title">About Me</h1>
 
-    <div class="about-item container">
+      <div class="about-item container">
+        <div class="about-img">
+          <a target="_blank" href="https://github.com/rovicz"
+            ><img src="src/img/victor-photo.jpg" alt="Victor Photo"
+          /></a>
+        </div>
 
-      <div class="about-img">
-        <a target="_blank" href="https://github.com/rovicz"><img src="src/img/victor-photo.jpg" alt="Victor Photo"></a>
+        <div class="about-content">
+          <h2>Victor Fernandes</h2>
+          <h3>Front-End Developer</h3>
+
+          <p>
+            Passionate about technology since I was a child, I started studying
+            programming a few years ago with the intention of becoming a great
+            developer. I'm always willing to learn and increase my range of
+            knowledge, there are no limits to knowledge and I take it very
+            seriously.
+          </p>
+        </div>
       </div>
+    </section>
 
-      <div class="about-content">
-        <h2>Victor Fernandes</h2>
-        <h3>Front-End Developer</h3>
+    <!-- Projects -->
 
-        <p>Passionate about technology since I was a child, I started studying programming a few years ago with the intention of becoming a great developer. I'm always willing to learn and increase my range of knowledge, there are no limits to knowledge and I take it very seriously.</p>
-      </div>
+    <section class="projects js-scroll" id="projects">
+      <h1 class="project-title">Projects</h1>
 
-    </div>
-  </section>
+      <div class="project-item container">
+        <div class="project-img">
+          <a
+            target="_blank"
+            title="Mac Miller Blog Website"
+            href="https://rovicz.github.io/MacMillerBlog/"
+            ><img src="src/img/macwebsite.jpg" alt="Mac Miller Blog"
+          /></a>
+        </div>
 
-  <!-- Projects -->
+        <div class="project-content">
+          <h2>Mac Miller Blog</h2>
+          <h3>HTML & CSS.</h3>
 
-  <section class="projects js-scroll">
-    <h1 class="project-title">Projects</h1>
+          <p>
+            A simple Blog about the artist Mac Miller, using concepts about CSS
+            positioning, best application of UX Design, with full portability to
+            responsive.
+          </p>
 
-    <div class="project-item container">
-      <div class="project-img">
-        <a target="_blank" title="Mac Miller Blog Website" href="https://rovicz.github.io/MacMillerBlog/"><img src="src/img/macwebsite.jpg" alt="Mac Miller Blog"></a>
-      </div>
-
-      <div class="project-content">
-        <h2>Mac Miller Blog</h2>
-        <h3>HTML & CSS.</h3>
-
-        <p>A simple Blog about the artist Mac Miller, using concepts about CSS positioning, best application of UX Design, with full portability to responsive.</p>
-
-        <a target="_blank" class="project-btn" href="https://rovicz.github.io/MacMillerBlog/">Visit</a>
-      </div>
-
-    </div>
-
-    <div class="project-item container">
-      <div class="project-img">
-        <a target="_blank" title="IMC Calculator Website" href="https://rovicz.github.io/IMC-Calculator/"><img src="src/img/imc-calculator.jpg" alt="IMC Calculator"></a>
-      </div>
-
-      <div class="project-content">
-        <h2>IMC Calculator</h2>
-        <h3>JavaScript.</h3>
-
-        <p>A simple IMC Calculator using HTML, CSS & JavaScript.</p>
-
-        <a target="_blank" class="project-btn" href="https://rovicz.github.io/IMC-Calculator/">Visit</a>
-      </div>
-
-    </div>
-
-    <div class="project-item container">
-      <div class="project-img">
-        <a target="_blank" title="GitHub Searcher Website" href="https://rovicz.github.io/GitHub-Searcher/"><img src="src/img/github-searcher.jpg" alt="GitHub Searcher"></a>
-      </div>
-
-      <div class="project-content">
-        <h2>GitHub Searcher</h2>
-        <h3>TypeScript.</h3>
-
-        <p>a simple project using TypeScript where you can search for github profiles and get information.</p>
-
-        <a target="_blank" class="project-btn" href="https://rovicz.github.io/GitHub-Searcher/">Visit</a>
+          <a
+            target="_blank"
+            class="project-btn"
+            href="https://rovicz.github.io/MacMillerBlog/"
+            >Visit</a
+          >
+        </div>
       </div>
 
-    </div>
+      <div class="project-item container">
+        <div class="project-img">
+          <a
+            target="_blank"
+            title="IMC Calculator Website"
+            href="https://rovicz.github.io/IMC-Calculator/"
+            ><img src="src/img/imc-calculator.jpg" alt="IMC Calculator"
+          /></a>
+        </div>
 
+        <div class="project-content">
+          <h2>IMC Calculator</h2>
+          <h3>JavaScript.</h3>
 
-  </section>
+          <p>A simple IMC Calculator using HTML, CSS & JavaScript.</p>
 
-  <!-- Contact -->
-
-  <section id="contact" class="contact js-scroll">
-
-    <h2 class="contact-title">Contact</h2>
-
-    <div class="contact-item container">
-      <h2>Contact me:</h2>
-
-      <div class="contact-img">
-        <p class="email-text">contato@victorferreira.dev</p>
-        <a target="_blank" id="copy-button"><img src="src/img/mail-logo.png" alt="Mail" title="Mail -  Click to Copy"></a>
-        <a target="_blank" href="https://github.com/rovicz"><img src="src/img/github-icon.png" alt="Twitter" title="GitHub"></a>
-        <a target="_blank" href="https://www.linkedin.com/in/victor-fernandes-ferreira/"><img src="src/img/linkedin-icon.png" alt="Linkedin" title="Linkedin"></a>
-        <a target="_blank" href="https://www.instagram.com/rovicz_/"><img src="src/img/instagram-logo.png" alt="Instagram" title="Instagram"></a>
+          <a
+            target="_blank"
+            class="project-btn"
+            href="https://rovicz.github.io/IMC-Calculator/"
+            >Visit</a
+          >
+        </div>
       </div>
-    </div>
-  </section>
 
-  <!-- Footer -->
+      <div class="project-item container">
+        <div class="project-img">
+          <a
+            target="_blank"
+            title="GitHub Searcher Website"
+            href="https://rovicz.github.io/GitHub-Searcher/"
+            ><img src="src/img/github-searcher.jpg" alt="GitHub Searcher"
+          /></a>
+        </div>
 
-  <footer class="footer">
-    <div class="container">
-      <p>Personal Portfolio.<br> All information belongs to the creator and owner of the site, Victor.</p>
+        <div class="project-content">
+          <h2>GitHub Searcher</h2>
+          <h3>TypeScript.</h3>
 
-      <a href="#">Victor</a>
-    </div>
-  </footer>
+          <p>
+            a simple project using TypeScript where you can search for github
+            profiles and get information.
+          </p>
 
-  <script type="module" src="./src/js/script.js"></script>
+          <a
+            target="_blank"
+            class="project-btn"
+            href="https://rovicz.github.io/GitHub-Searcher/"
+            >Visit</a
+          >
+        </div>
+      </div>
+    </section>
 
-</body>
+    <!-- Contact -->
 
+    <section id="contact" class="contact js-scroll">
+      <h2 class="contact-title">Contact</h2>
+
+      <div class="contact-item container">
+        <h2>Contact me:</h2>
+
+        <div class="contact-img">
+          <p class="email-text">contato@victorferreira.dev</p>
+          <a target="_blank" id="copy-button"
+            ><img
+              src="src/img/mail-logo.png"
+              alt="Mail"
+              title="Mail -  Click to Copy"
+          /></a>
+          <a target="_blank" href="https://github.com/rovicz"
+            ><img src="src/img/github-icon.png" alt="Twitter" title="GitHub"
+          /></a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/victor-fernandes-ferreira/"
+            ><img
+              src="src/img/linkedin-icon.png"
+              alt="Linkedin"
+              title="Linkedin"
+          /></a>
+          <a target="_blank" href="https://www.instagram.com/rovicz_/"
+            ><img
+              src="src/img/instagram-logo.png"
+              alt="Instagram"
+              title="Instagram"
+          /></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+      <div class="container">
+        <p>
+          Personal Portfolio.<br />
+          All information belongs to the creator and owner of the site, Victor.
+        </p>
+
+        <a href="#">Victor</a>
+      </div>
+    </footer>
+
+    <script type="module" src="./src/js/script.js"></script>
+  </body>
 </html>
