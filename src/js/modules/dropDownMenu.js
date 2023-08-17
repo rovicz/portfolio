@@ -5,9 +5,11 @@ export default function initDropMenu() {
   if (dropdownContent.classList.contains("show")) {
     dropdownContent.classList.remove("show");
     dropdownImg.classList.remove("vsgtransform");
+    dropdownImg.classList.add("reversevsg");
   } else {
     dropdownContent.classList.add("show");
     dropdownImg.classList.add("vsgtransform");
+    dropdownImg.classList.remove("reversevsg");
   }
 
   window.onclick = function (event) {

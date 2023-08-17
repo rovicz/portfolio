@@ -670,6 +670,11 @@ img {
   transition: 300ms;
 }
 
+.reversevsg {
+  transform: rotate(0deg);
+  transition: 300ms;
+}
+
 @media (max-width: 739px) {
   .dropbtn {
     display: inline-block;
